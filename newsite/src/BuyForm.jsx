@@ -14,7 +14,6 @@ import {  useSelector } from 'react-redux'
 const BuyForm = () => {
 
 const {id}=useParams()
-console.log(id)
 const {course}=useContext(Context1)
 const courseDetail=course.find((c)=>c.id.toString()===id)
 if(!courseDetail) return <h1>...CourseNotFound</h1>

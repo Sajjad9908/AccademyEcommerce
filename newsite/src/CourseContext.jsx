@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react'
+import React, { createContext,  useState } from 'react'
 
 export const Context1=createContext();
 
@@ -58,13 +58,7 @@ const CourseContext = ({children}) => {
       ];
       
     
-   
-    useEffect(()=>{
-        course.map((value)=>
-            console.log(value)
-        )
-        
-    },[])
+ 
 
 
   return (
