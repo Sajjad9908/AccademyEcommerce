@@ -1,0 +1,239 @@
+.contact-footer{
+    margin-top: 40px;
+
+}
+.subscribe-letter{
+    position: relative;
+    top: 66px;
+    margin: auto;
+    max-width: 835px;
+    background-color:rgb(39, 11, 96) ;
+}
+.head-subscribe{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Poppins;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.subscribe-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.subscribe-input input{
+    border-radius: 4px;
+    text-align: center;
+    width: 62%;
+  
+    height: 40px;
+    margin-left: center;
+   
+    margin: 20px 60px;
+}
+
+input.empty-input{
+    border: none;
+    color: white !important;
+    background-color: black !important;
+    border-bottom: 1px solid gray !important;
+    font-family: Poppins !important;
+}
+.arrow{
+    height: 20px;
+    width: 50px;
+    border-radius: 1px;
+    cursor: pointer;
+    height: 42px;
+    position: absolute;
+    /* max-width: 82px; */
+    background-color: rgb(222, 203, 94);
+    right: 145px;
+    font-size: 4px;}
+.get-in-touch{
+  z-index: -2;
+    position:absolute;
+    width: 100%;
+    background-color: black;
+}
+.get-in-head{
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 90px;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+}
+
+.form input{
+    font-size: 18px;
+    border: none;
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: Poppins;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    font-family: Poppins;
+   
+}
+.input-msg{
+  border: 2px solid red;
+}
+.input-msg::placeholder{
+    color: red;
+   
+}
+
+.form textarea{
+    width: 100%;
+    margin-top: 40px;
+    height: 32px;
+    border: none;
+    color: white;
+    background: black;
+    height: 48px;
+    font-size: 18px;
+    font-family: Poppins;
+}
+.left{
+    float:right ;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contact{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 90px;
+}
+.number{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.set-num{
+    padding: 12px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight:400 ;
+}
+.email{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-Links{
+    gap: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer{
+    height: 58px;
+    box-shadow: 0px 0px 10px white;
+}
+.foot-p{
+    
+
+ 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px ;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.text{
+    position: relative;
+}
+.error{
+    position:absolute;
+    font-family: Poppins;
+    height: 25px;
+    background: red;
+    left: 255px;
+    top: 15px;
+    color: beige;
+    border-radius: 13px;
+    width: 194px;
+    text-align: center;
+}
+.error::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(243, 54, 54) transparent transparent transparent;
+  }
+
+
+    @media only screen and (max-width:803px) and (min-width:500px){
+.arrow{
+    right: 97px;
+}
+
+    }
+
+    @media only screen and (max-width:550px) and (min-width:300px){
+        .arrow{
+            right: 50px;
+        }
+        form{
+            width: 270px;
+       
+        margin-left: 70px;
+        }
+        .left{
+            float: none;
+        }
+        .set-num{
+            font-size: 15px;
+
+        }
+        .foot-p{
+            font-size: 13px;
+        }
+    }
+    @media (max-width:380px){
+        .arrow{
+            width: 36px;
+        }
+        form{
+            width: 230px;
+    margin-left: 30px;
+        }
+        .left{
+            float: none;
+        }
+    }
+    .input-msg{
+        border: 2px solid red!important;
+      }
+      .error-msg{
+        color: red;
+      }

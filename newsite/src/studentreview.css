@@ -1,0 +1,123 @@
+.Student-review{
+   position: relative;
+
+}
+.top-heading{
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.head-para{
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 300;
+
+}
+.Student-flex{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    position: relative;
+  
+}
+.top-flex img{
+
+    
+    width: 204px;
+    height: 188px;
+   
+}
+.student-review{
+    box-shadow: 3px 3px 13px #b6b0b0;
+    height: 285px;
+    width: 600px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-para{
+    font-family: Poppins;
+
+    margin: 0;
+    text-align: center;
+    padding: 0 106px;
+}
+.head-sec-para{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #decb5e;
+    text-align: center;
+}
+.top-flex{   
+     width:10% ;
+    position: absolute;
+    left: 200px;
+
+    top: -37px;
+}
+.fashion-img{
+    position: absolute;
+    width: 100px;
+    top: 430px;
+ left: 700px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1040px) and (min-width:600px){
+    .student-review {
+        box-shadow: 3px 3px 13px #b6b0b0;
+        height: 369px;
+       
+        margin-top: 41px;
+    
+    }
+    .fashion-img{
+        top: 559px;
+    left: 477px;
+    }
+    
+}
+@media only screen and (max-width:600px) and (min-width:320px){
+    .student-review {
+        box-shadow: 3px 3px 13px #b6b0b0;
+        height: 369px;
+       
+        margin-top: 41px;
+    
+    }
+    .top-flex img {
+        width: 181px;
+        height: 169px;
+    }
+    .top-flex {
+       
+        left: 97px;}
+        .sec-para {
+        padding: 0 1px;
+        }
+        .fashion-img{
+            top: 579px;
+        left: 254px;
+        }
+}
+@media only screen and (max-width:509px) and (min-width:320px){
+    .fashion-img{
+        top: 644px;
+        left: 188px;
+    }
+}

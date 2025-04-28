@@ -1,0 +1,97 @@
+.box-detail{
+border-right: 2px solid black;
+
+}
+.course-flex{
+    min-height: 700px;
+    background-color: #270B60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 8rem;
+    flex-direction: row-reverse;
+   
+}
+.detailCourse{
+    margin-bottom: 3rem;
+    border-right: 2px solid white;
+    text-align: center;
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+   
+}
+
+.course-detail-h1{
+    font-family: Poppins;
+    color: 
+    #DBC64C;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+.c-title{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+
+}
+.fees-des{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: center;
+}
+.what-learn{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    color: 
+    #DBC64C;
+}
+.Moredescrip{
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: center;
+}
+.li{
+    margin: 39px;
+    color: white;
+    font-family: poppins;
+}
+.btn-reducer{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color:  #DBC64C;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    border:none;
+    cursor: pointer;
+
+}
+.btn-reducer:hover{
+    background-color: #270B60;
+    color: #DBC64C;
+    border: 3px solid #DBC64C;
+    height: 40px;
+}
+@media (max-width:933px){
+    .course-flex{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+    .course-detail-h1 {
+        width: 100%;
+    }
+    .detailCourse{
+        border-bottom: 2px solid  #DBC64C; ;
+        border-right: none;
+    }
+}
