@@ -1,12 +1,46 @@
-# React + Vite
+# 📚 Student eCommerce Course Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Student eCommerce Course Platform** – a React-based online course marketplace where students can easily explore and purchase educational courses like Python, Web Development, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖥️ **Available Courses:**
+  - Python Programming
+  - Web Development
+  - Data Science
+  - Graphic Design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛒 **E-commerce Functionality:**
+  - Add courses to cart
+  - Increase/decrease course quantity
+  - Remove courses from cart
+  - View cart and total amount
+
+- 📦 **Buy Now Option:**
+  - Each course page includes a "Buy Now" button leading to a simple checkout form
+
+- ✅ **State Management:**
+  - Uses Redux for managing cart state (add, remove, quantity changes)
+
+- 📄 **Dynamic Routing:**
+  - React Router is used for navigation between course detail pages, cart, and checkout form
+
+- 📱 **Responsive Design:**
+  - Mobile-friendly layout with media queries
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Frontend UI
+- **Redux Toolkit** – State management (Cart)
+- **React Router DOM** – Navigation
+- **HTML5 + CSS3** – Styling and layout
+- **JavaScript (ES6+)** – Logic and interactivity
+
+---
+
+## 📁 Project Structure
+
