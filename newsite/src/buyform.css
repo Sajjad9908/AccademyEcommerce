@@ -23,9 +23,7 @@ form{
   
     margin: auto;
 }
-.detail-crc{
-    border-right: 5px solid hsl(51, 66%, 62%);
-}
+
 .name{
     color: white;
     font-family: Poppins;
@@ -91,6 +89,10 @@ align-items: center;
 justify-content: center;
 background-color: hsl(260, 80%, 21%);
 }
+.detail-crc{
+    width: 500px;
+    border-right: 5px solid hsl(51, 66%, 62%);
+}
 
 @media (max-width:400px){
     .name{
@@ -101,16 +103,34 @@ background-color: hsl(260, 80%, 21%);
         flex-wrap: wrap;
     }
     .crc-title {
+        min-width: auto;
         padding-right: 0px;
-    }
-    .detail-crc{
-        border-right: none;
-        border-bottom: 4px solid hsl(51, 66%, 62%) ;
-    }
+   
 }
-@media (min-width:1100px){
-        .crc-title {
-            padding-right: 20px;
-        }
+.detail-crc {
+    border-right: none;
+    width: 100%;
+    max-width: 100%; 
+}
 
+
+}
+@media (max-width:533px){
+    .form-img {
+        width: 260px;}
+        .crc-title {
+            font-size: 18px;
+        }
+        .name {
+            flex-wrap: wrap;
+            gap: .3rem;
+        }
+        .buy-form {
+            min-height: 16vh;
+    margin-top: 1rem;
+    height: 16vh;
+        }
+        .buy-form h1 {
+            font-size: 32px;
+        }
 }
