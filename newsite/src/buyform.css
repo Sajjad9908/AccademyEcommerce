@@ -115,7 +115,16 @@ background-color: hsl(260, 80%, 21%);
 
 
 }
-@media (max-width:533px){
+@media (max-width:547px){
+    .error {
+       
+    
+        height: 25px;
+      
+        left: 18px;
+        top: 36px;
+       
+    }
     .form-img {
         width: 260px;}
         .crc-title {
