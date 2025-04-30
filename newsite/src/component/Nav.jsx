@@ -44,16 +44,16 @@ const Nav = () => {
                     </label>
                     <ul>
                         <li className='li-nav'>
-                            <Link to={'/'}>
+                            <Link to={'/'}  style={{textDecoration:"none"}}>
                             <button className='links-btn active'>Home</button>
                             </Link>
-                            <Link to={'/about'}>
+                            <Link to={'/about'} style={{textDecoration:"none"}}>
                             <button className='links-btn'>About</button>
                             </Link>
-                            <Link to={'/services'}>
+                            <Link to={'/services'} style={{textDecoration:"none"}}>
                             <button className='links-btn'>Services</button>
                             </Link>
-                            <Link to={'/contactus'}>
+                            <Link to={'/contactus'} style={{textDecoration:"none"}}>
                             <button className='links-btn'>Contact Us</button>
 
                             <button className=' nav-btn'>Logout</button>
