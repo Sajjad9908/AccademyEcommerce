@@ -55,7 +55,7 @@ input.empty-input{
     font-size: 4px;}
 .get-in-touch{
   z-index: -2;
-    position:absolute;
+  
     width: 100%;
     background-color: black;
 }
@@ -200,6 +200,9 @@ input.empty-input{
     }
 
     @media only screen and (max-width:550px) and (min-width:300px){
+        .contact {
+          margin: 23px;
+        }
         .arrow{
             right: 50px;
         }
