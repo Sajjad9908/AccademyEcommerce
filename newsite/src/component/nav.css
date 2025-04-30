@@ -13,7 +13,7 @@
     margin-right: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .links-btn{
@@ -39,6 +39,7 @@
         margin: 0px 20px;
         background: none;
         cursor: pointer;
+        color: white;
     }
 
 ul{
@@ -51,7 +52,12 @@ ul{
 li{
     list-style-type: none;
 }
+.li-nav{
+    padding-right: 30px;
+   
+}
 .header{
+    overflow: hidden;
     width: 100%;
     float: left;
     background-image: url(https://themewagon.github.io/Oinia/images/banner-bg.png);
@@ -106,6 +112,9 @@ color: rgb(210, 210, 96);
     height: 89px;
     margin-top: 54px;
 }
+.links{
+    overflow: hidden;
+}
 
 .container{
     position: relative;
@@ -119,7 +128,11 @@ color: rgb(210, 210, 96);
     width: 60px;
     height: 60px;
 }
-
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -129,12 +142,13 @@ color: rgb(210, 210, 96);
     }
     
     ul {
+        overflow: hidden;
         border-radius: 10px;
         background-color: rgb(46, 18, 103);
         width: 80%;
         position: absolute;
         display: flex;
-       
+       padding-right: 40px;
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -148,6 +162,9 @@ color: rgb(210, 210, 96);
         top: 67px;
         position: static;
     }
+    .search-logout{
+        color: white;
+    }
     .links-btn{
         display: block;
         font-size: 22px;
@@ -160,6 +177,9 @@ color: rgb(210, 210, 96);
         background: none;
         cursor: pointer;
 
+    }
+    .nav-btn{
+        color: white;
     }
     .rounded-nav{
         display: block;
@@ -178,10 +198,13 @@ color: rgb(210, 210, 96);
        font-size: 23px;
     
     }
+    .svg-search{
+        color: white;
+    }
     .search-icon {
         width: 25px;
         display: inline-block;}
-        .links-btn:hover,.active{
+        .links-btn:hover{
            color: yellow;
 
         }
@@ -193,4 +216,12 @@ color: rgb(210, 210, 96);
     }
     .banner-heading {
         font-size: 36px;}
+.rounded-nav {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 0;
+}
+.menu-btn {
+    right: 14px;
+}
 }

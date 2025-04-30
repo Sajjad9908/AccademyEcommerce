@@ -43,7 +43,7 @@ const Nav = () => {
                     <CiMenuBurger size={22} fontWeight={200} />
                     </label>
                     <ul>
-                        <li>
+                        <li className='li-nav'>
                             <Link to={'/'}>
                             <button className='links-btn active'>Home</button>
                             </Link>
@@ -55,18 +55,21 @@ const Nav = () => {
                             </Link>
                             <Link to={'/contactus'}>
                             <button className='links-btn'>Contact Us</button>
+
+                            <button className=' nav-btn'>Logout</button>
+                            <IoSearch className='search-logout'/>
                             </Link>
                         </li>
                     </ul>
                 </div>
-                <div className='logout-link'>
-                    <li>
-                        <button className=' nav-btn'>Logout</button>
-                    </li>
-                </div>
-                <div className='search-icon'>
-                <IoSearch />
-                </div>
+               
+                 
+                       
+                   
+              
+                
+               
+                
     
             </div>
             </div>

@@ -93,6 +93,18 @@ background-color: hsl(260, 80%, 21%);
     width: 500px;
     border-right: 5px solid hsl(51, 66%, 62%);
 }
+.error{
+    position: absolute;
+    font-family: Poppins;
+    height: 25px;
+    background: red;
+    left: 155px;
+    top: -3px;
+    color: beige;
+    border-radius: 13px;
+    width: 194px;
+    text-align: center;
+}
 
 @media (max-width:400px){
     .name{
