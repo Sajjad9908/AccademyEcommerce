@@ -47,7 +47,7 @@ ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-
+    transition: all 0.4s linear;
 }
 li{
     list-style-type: none;
@@ -153,14 +153,18 @@ color: rgb(210, 210, 96);
         align-items: center;
         justify-content: center;
         left: -100%;
-        transition: left 0.4s linear;
+        transition: all 0.8s ease;
     
         height: 80vh;
+        
     }
     #toggle-btn:checked ~ ul {
         left: 0;
         top: 67px;
+        transition: all 0.4s linear;
         position: static;
+        transition: transform 0.5s ease;
+        transform: translate(-50px);
     }
     .search-logout{
         color: white;
