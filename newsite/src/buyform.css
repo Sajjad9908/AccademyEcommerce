@@ -106,10 +106,22 @@ background-color: hsl(260, 80%, 21%);
     text-align: center;
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
     .name{
         gap: 1rem;}
-}
+        .country{
+            width: 116px;
+    height: 23px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: Poppins;
+        }
+        .radio{
+            width: 0.85rem;
+        }
+        .for-margin{
+            margin-top: 20px;
+        }
 @media (max-width:933px){
     .course-flex2{
         flex-wrap: wrap;
@@ -117,6 +129,7 @@ background-color: hsl(260, 80%, 21%);
     .crc-title {
         min-width: auto;
         padding-right: 0px;
+        padding: 15px;
    
 }
 .detail-crc {
@@ -144,7 +157,7 @@ background-color: hsl(260, 80%, 21%);
         }
         .name {
             flex-wrap: wrap;
-            gap: .3rem;
+            gap: .2rem;
         }
         .buy-form {
             min-height: 16vh;

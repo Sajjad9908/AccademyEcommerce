@@ -156,6 +156,8 @@ color: rgb(210, 210, 96);
         transition: all 0.8s ease;
     
         height: 80vh;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
         
     }
     #toggle-btn:checked ~ ul {

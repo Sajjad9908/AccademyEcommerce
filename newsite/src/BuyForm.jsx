@@ -84,7 +84,7 @@ useEffect(() => {
             <Field type='number' placeholder='Enter your Phone Number' name="number"/>
             <ErrorMessage component="div" className='error' name="number"/>
            </div>
-           <div className='name'>
+           <div className='name for-margin'>
             <h3>Gender:</h3>
             <label htmlFor='male'>male</label>
             <Field className='radio' type='radio' name='gender'  value='male'/>
@@ -94,7 +94,7 @@ useEffect(() => {
            </div>
            <div className='name name2'>
            <h3>select country:</h3>
-           <Field as='select' name='country'>
+           <Field as='select' name='country' className="country">
             <option value="pakistan">Pakistan</option>
             <option value="india">India</option>
             <option value="china">China</option>
