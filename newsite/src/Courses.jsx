@@ -36,7 +36,7 @@ gsap.from(box1.current ,{
         start:"top 70%",
         end:"bottom 60%",
         toggleActions: "restart none restart none",
-        markers:true,
+        markers:false,
         scrub:false,
        
 
