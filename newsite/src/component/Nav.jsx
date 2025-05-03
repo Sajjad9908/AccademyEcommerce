@@ -80,8 +80,8 @@ const Nav = () => {
         Courses You Want
     </h1>
    </div>
-   <div className='header-btn'>
-    <button className='head-btn reveal'>Read More</button>
+   <div className='header-btn reveal'>
+    <button className='head-btn'>Read More</button>
 
 
    </div>

@@ -8,6 +8,10 @@
  
 
 }
+.seemore{
+    background-color: hsl(260, 80%, 21%);
+    padding-bottom: 20px;
+}
 .main-box{
    
     background-color: rgb(25 30 33);
@@ -57,3 +61,13 @@
     background: cadetblue;
 
 }
+.seemore{
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .toggle-button {
+      display: none;
+    }
+  }
