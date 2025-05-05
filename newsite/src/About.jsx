@@ -1,11 +1,39 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './about.css'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
+const aboutText=useRef([])
+const ContainerRef=useRef()
+useGSAP(()=>{
+const tl=gsap.timeline({
+    opacity:0,
+   
+    defaults:{
+      delay:.2,
+      duration:1,
+
+    },
+scrollTrigger:{
+trigger:ContainerRef.current,
+toggleActions: "restart none restart none",
+start:"top 20%",
+end:"bottom 60%",
+
+
+}
+})
+aboutText.current.forEach(el=> {
+    tl.from(el,{stagger:0.4,y:20,opacity:0,})
+});
+},[])
   return (
     <>
-    <div className='about'>
-    <h1>About</h1>
+    <div className='about' ref={ContainerRef}>
+    <h1 ref={(el)=>aboutText.current[0]=el}>About</h1>
     </div>
      <div className='about-txt'>
         <div className='About-img'>
