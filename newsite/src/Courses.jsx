@@ -53,6 +53,7 @@ gsap.from(box1.current ,{
     useEffect(()=>{
 
         setData(course)
+        ScrollTrigger.refresh();
         
     },[])
   
